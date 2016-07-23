@@ -7,7 +7,7 @@ WORKDIR /lp/
 
 RUN apt-get -yqq update
 
-RUN apt-get -yqq install git build-essentials
+RUN apt-get -yqq install git build-essential
 
 RUN git clone https://github.com/rumpkernel/rumprun.git
 
