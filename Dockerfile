@@ -11,9 +11,9 @@ RUN apt-get -yqq install git build-essential
 
 RUN git clone https://github.com/rumpkernel/rumprun.git
 
-RUN "\${WORKDIR}\/rumprun\/build-rr.sh", "hw"
+RUN "rumprun/build-rr.sh", "hw"
 
-RUN export \$PATH:\${WORKDIR}\/rumprun\/rumprun\/bin
+RUN export $PATH:${WORKDIR}/rumprun/rumprun/bin
 
 
 
