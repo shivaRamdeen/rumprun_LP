@@ -1,5 +1,8 @@
 #!/bin/bash
 
+NAME=$1
+NAME=${NAME%.*}
+
 #path to rumprun tools
 export PATH:$PATH:/lp/rumprun/rumprun/bin
 
