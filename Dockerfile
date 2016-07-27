@@ -1,4 +1,3 @@
-#the start
 FROM ubuntu:trusty
 
 MAINTAINER Shiva Ramdeen <ramdeen@us.ibm.com>
