@@ -4,7 +4,7 @@ NAME=$1
 NAME=${NAME%.*}
 
 #path to rumprun tools
-export PATH:$PATH:/lp/rumprun/rumprun/bin
+export PATH=$PATH:/lp/rumprun/rumprun/bin
 
 #cross compile
 #check if application specific compile instructions are present.
