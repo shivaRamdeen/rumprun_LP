@@ -12,7 +12,7 @@ RUN git clone https://github.com/rumpkernel/rumprun.git
 
 RUN cd /lp/rumprun && pwd &&  git submodule update --init && ./build-rr.sh hw
 
-COPY build.sh /solum/bin
+COPY build.sh /solum/bin/
 
-COPY compile.sh /solum/bin
+COPY compile.sh /solum/bin/
 
