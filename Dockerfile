@@ -6,7 +6,7 @@ WORKDIR /lp
 
 RUN apt-get -yqq update
 
-RUN apt-get -yqq install git build-essential
+RUN apt-get -yqq install git build-essential libz-dev && apt-get -yqq upgrade binutils
 
 RUN git clone https://github.com/rumpkernel/rumprun.git
 
