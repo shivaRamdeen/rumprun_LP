@@ -7,3 +7,9 @@ The build.sh script is used to install application requirements from the file "r
 # compile.sh
 The compile.sh script is used to compile the rumprun application and produce the final binary.
 The steps include cross-compinling and baking. By default the unikernel is baked with the virtio drivers.
+
+# Create the language pack in solum
+
+```
+solum lp create rumprun http://github.com/shivaRamdeen/rumprun_LP.git
+```
